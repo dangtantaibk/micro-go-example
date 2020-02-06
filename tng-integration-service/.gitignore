@@ -1,0 +1,34 @@
+# IDEs workspace dirs
+**/.idea
+**/.vscode
+**/.env
+
+# Project files and dirs
+bin
+pkg
+src/gopkg.in/
+src/tng/dev-tool-service/dev-tool-service
+src/tng/h5-integration-service/h5-integration-service
+src/tng/pos-service/pos-service
+src/tng/cron-job-service/cron-job-service
+src/tng/promotion-service/promotion-service
+src/tng/shipper-service/shipper-service
+src/tng/loyalty-service/loyalty-service
+src/tng/user-profile-service/user-profile-service
+src/tng/user-profile-service/user_profile_service
+src/tng/menu-service/menu-service
+*.lock
+**/vendor
+**/*.tmp
+**/*.out
+
+# Dependency dir
+**/github.com
+**/golang.org
+
+test-results
+
+**/swagger.json
+**/swagger.yml
+
+*.testCoverage.txt

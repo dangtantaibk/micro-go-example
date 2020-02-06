@@ -1,0 +1,25 @@
+Setting:
+  100:
+    vi: "Lỗi không xác định"
+    en: "Unknown"
+  101:
+    vi: "Dữ liệu không hợp lệ"
+    en: "Invalid request information"
+  102:
+    vi: "Không có quyền hoặc access token không hợp lệ"
+    en: "Unauthorized"
+  103:
+    vi: "Không có quyền"
+    en: "Forbidden"
+  104:
+    vi: "Hệ thống đang bị lỗi, vui lòng quay lại sau"
+    en: "Internal server error"
+  105:
+    vi: "Chức năng đang bảo trì, vui lòng quay lại sau"
+    en: "Function under maintenance, please come back later"
+  106:
+    vi: "Chữ kí không đúng"
+    en: "Sig not matching"
+  107:
+    vi: "Không tìm thấy dữ liệu"
+    en: "Data not found"

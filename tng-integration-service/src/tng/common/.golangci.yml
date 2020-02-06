@@ -1,0 +1,76 @@
+linters-settings:
+  govet:
+    check-shadowing: true
+  gocyclo:
+    min-complexity: 10
+  maligned:
+    suggest-new: true
+  goconst:
+    min-len: 2
+    min-occurrences: 2
+  misspell:
+    locale: US
+  lll:
+    line-length: 140
+  gocritic:
+    enabled-tags:
+      - performance
+      - style
+      - experimental
+    disabled-checks:
+      - wrapperFunc
+
+linters:
+  enable-all: false
+  disalbe-all: false
+  enable:
+    - gocritic
+    - gosimple
+    - errcheck
+    - ineffassign
+    - gosec
+    - lll
+    - goconst
+    - stylecheck
+    - unparam
+    - unconvert
+    - interfacer
+    - gofmt
+  disable:
+    - golint
+    - dupl
+    - maligned
+    - prealloc
+    - gochecknoglobals
+    - goimports
+    - gochecknoinits
+    - govet
+  fast: true
+
+run:
+  deadline: 30m
+  skip-dirs:
+    - github.com
+    - golang.org
+    - database/migrations
+  skip-files:
+    - tng/h5-integration-service/routers/commentsRouter_controllers.go
+    - tng/ops/routers/commentsRouter_controllers.go
+    - tng/mobile/routers/commentsRouter_controllers.go
+    - tng/integration/routers/commentsRouter_controllers.go
+
+issues:
+  exclude-rules:
+    - text: "G401"
+      linters:
+        - gosec
+    - text: "G501"
+      linters:
+        - gosec
+
+# golangci.com configuration
+# https://github.com/golangci/golangci/wiki/Configuration
+service:
+  golangci-lint-version: 1.15.x # use the fixed version to not introduce new linters unexpectedly
+  prepare:
+    - echo "here I can run custom commands, but no preparation needed for this repo"

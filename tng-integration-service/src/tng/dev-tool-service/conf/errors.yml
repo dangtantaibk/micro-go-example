@@ -1,0 +1,28 @@
+Pi3UpdateInfo:
+  4000000:
+    vi: "Lỗi không xác định"
+    en: "Unknown"
+  4000001:
+    vi: "Dữ liệu không hợp lệ"
+    en: "Invalid request information"
+  4000002:
+    vi: "Không có quyền hoặc access token không hợp lệ"
+    en: "Unauthorized"
+  4000003:
+    vi: "Không có quyền"
+    en: "Forbidden"
+  4000004:
+    vi: "Hệ thống đang bị lỗi, vui lòng quay lại sau"
+    en: "Internal server error"
+  4000005:
+    vi: "Chức năng đang bảo trì, vui lòng quay lại sau"
+    en: "Function under maintenance, please come back later"
+  4000401:
+    vi: "Chữ kí không đúng"
+    en: "Sig not matching"
+  4000402:
+    vi: "Không tìm thấy dữ liệu"
+    en: "Data not found"
+  4000403:
+    vi: "Đăng kí thiết bị không thành công hoặc đăng kí bị lỗi"
+    en: "Register device failed or Device already register"

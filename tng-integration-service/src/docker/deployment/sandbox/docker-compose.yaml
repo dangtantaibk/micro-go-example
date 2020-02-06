@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  h5-service:
+    image: vpos.asia:5000/h5-service
+    network_mode: "host"
+    ports:
+      - "8080:8080"
+    restart: always

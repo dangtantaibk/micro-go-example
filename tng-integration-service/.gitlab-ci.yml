@@ -1,0 +1,10 @@
+include:
+  - project: 'devops/gitlab-ci-templates'
+    ref: master
+    file: "/common/libs.yml"
+  - project: 'devops/gitlab-ci-templates'
+    ref: master
+    file: "/projects/tng/main.yml"
+  - project: 'devops/gitlab-ci-templates'
+    ref: master
+    file: "before-script-templates.yml"

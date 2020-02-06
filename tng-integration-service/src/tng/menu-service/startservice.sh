@@ -1,0 +1,1 @@
+nohup menu-service &

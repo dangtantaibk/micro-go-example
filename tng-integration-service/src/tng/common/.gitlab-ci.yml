@@ -1,0 +1,18 @@
+image: golang:1.12.5
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  GIT_STRATEGY: clone
+
+stages:
+  - test
+
+tests:
+  stage: test
+  script:
+    - mkdir -p $GOPATH/src/tng/common
+    - cp -r . $GOPATH/src/tng/common
+    - cd $GOPATH/src/tng
+    - dep init -v
+    - cd common
+    - go get -v github.com/golangci/golangci-lint/cmd/golangci-lint
+    - make test lint

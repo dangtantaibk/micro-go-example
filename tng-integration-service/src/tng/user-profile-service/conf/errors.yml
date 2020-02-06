@@ -1,0 +1,65 @@
+Common:
+  100000:
+    vi: "Lỗi không xác định"
+    en: "Unknown error"
+  100001:
+    vi: "Dữ liệu không hợp lệ"
+    en: "Invalid request information"
+  100002:
+    vi: "Thông tin liên quan không khớp"
+    en: "Invalid error"
+  100003:
+    vi: "Tập tin đã tồn tại"
+    en: "File duplicate"
+  100004:
+    vi: "Lỗi Logic"
+    en: "Business logic error"
+  100005:
+    vi: "Định dạng thời gian không đúng"
+    en: "Datetime format error"
+  100006:
+    vi: "Tài khoản không có quyền Insert"
+    en: "Permission insert error"
+  100007:
+    vi: "Thông tin liên quan không hợp lệ hoặc không khớp"
+    en: "Invalid belong relation error"
+  100008:
+    vi: "Định dạng tập tin không được hỗ trợ"
+    en: "File format is not supported"
+  100009:
+    vi: "Kích thước tập tin quá lớn"
+    en: "File size too large"
+  100010:
+    vi: "Không tìm thấy các thông tin liên quan"
+    en: "Not found related field"
+  100011:
+    vi: "Chữ kí không khớp"
+    en: "Sig not matching"
+  100012:
+    vi: "Lỗi xung đột dữ liệu"
+    en: "Conflict error"
+  100013:
+    vi: "Không có quyền hoặc access token hết hạn"
+    en: "Forbidden"
+  100014:
+    vi: "Hệ thống đang bị lỗi, vui lòng quay lại sau"
+    en: "Internal server error"
+
+UserProfile:
+  200000:
+    vi: "Thêm thông tin user không thành công"
+    en: "Insert user profile error"
+  200001:
+    vi: "Cập nhật thông tin User không thành công"
+    en: "Update user profile error"
+  200002:
+    vi: "Lấy thông tin User không thành công"
+    en: "Get user profile error"
+
+UserSession:
+  300000:
+    vi: "Thông tin đăng nhập không hợp lệ"
+    en: "Login information invalid"
+  300001:
+    vi: "Token không hợp lệ"
+    en: "Token invalid"

@@ -1,0 +1,1 @@
+nohup user-profile-service &

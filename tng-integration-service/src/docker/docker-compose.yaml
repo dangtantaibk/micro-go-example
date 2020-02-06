@@ -1,0 +1,27 @@
+version: '3.4'
+services:
+#  h5-dev-tool-service:
+#    image: vpos.asia:5000/dev-tool-service
+#    network_mode: "host"
+#    ports:
+#      - "8080:8080"
+#    restart: always
+#  h5-service:
+#    image: vpos.asia:5000/h5-service
+#    network_mode: "host"
+#    ports:
+#      - "8088:8088"
+#    restart: always
+#  pos-service:
+#    image: vpos.asia:5000/pos-service
+#    network_mode: "host"
+#    ports:
+#      - "8086:8086"
+#    restart: always
+  cron-job-service:
+    image: vpos.asia:5000/cron-job-service
+    network_mode: "host"
+    ports:
+      - "8085:8085"
+    restart: always
+
